@@ -1,0 +1,8 @@
+{
+	"replace":false,
+	"values":
+	[
+		"deathswap:swap/swap",
+        "deathswap:swap/rerand"
+	]
+}
