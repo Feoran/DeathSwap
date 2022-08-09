@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "orangeeverything",
+  "version": "1.0",
+  "name": "OrangeEverything",
+  "description": "Orange - Everything is possible",
+  "authors": [
+    "SSOrangeCATY",
+    "Warth_Diamond"
+  ],
+  "contact": {
+    "QGroup": "https://jq.qq.com/?_wv=1027&k=kbkCNudf",
+    "Bilibili": "https://space.bilibili.com/21254202"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "nbtcrafting": "*",
+    "fabricloader": ">=0.12.7",
+    "fabric-api-base": "*",
+    "minecraft": ">=1.18"
+  }
+}
