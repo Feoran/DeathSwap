@@ -5,5 +5,5 @@ execute if entity @s run scoreboard players set @s level 1
 execute if entity @s run scoreboard players set @s level0 1
 
 function deathswap:level/level
-spawnpoint @s 0 72 0
-tp @s 0 72 0
+spawnpoint @s 0 -32 0
+tp @s 0 -32 0

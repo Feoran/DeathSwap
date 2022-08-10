@@ -1,6 +1,6 @@
 #大厅
-tp @a[scores={level0=1..}] 0 72 0
-spawnpoint @a[scores={level0=1..}] 0 72 0
+tp @a[scores={level0=1..}] 0.999 -31 0.999
+spawnpoint @a[scores={level0=1..}] 0 -31 0
 #重置
 scoreboard players set @a death 0
 kill @e[tag=toswap1]
