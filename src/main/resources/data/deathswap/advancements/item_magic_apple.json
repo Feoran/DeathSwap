@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "deathswap:magic_apple"
+            }
+        }
+    },
+    "rewards": {
+        "function": "deathswap:advanture/magic_apple/craft"
+    }
+}

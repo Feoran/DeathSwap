@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "deathswap:duel"
+            }
+        }
+    },
+    "rewards": {
+        "function": "deathswap:advanture/duel/craft"
+    }
+}

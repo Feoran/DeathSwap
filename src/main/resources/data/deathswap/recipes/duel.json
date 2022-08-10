@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        " s ",
+        " F "
+    ],
+    "key": {
+        "s": {
+            "item": "minecraft:stick"
+        },
+        "F": {
+            "item": "minecraft:feather"
+        }
+    },
+    "result": {
+        "item": "minecraft:stick",
+        "count": 1,
+        "data":{
+        	"duel":1,
+        	"display":{
+        		"Name": "{\"text\":\"命运之棒\",\"color\":\"yellow\",\"italic\":false}",
+        		"Lore": [ "{\"text\":\" \"}","{\"text\":\"\\u00a76神器\"}","{\"text\":\"\\u00A77手持5秒后与随机一名玩家进行45秒的决斗\"}","{\"text\":\"\\u00A77若双方在时间内未分出胜负,则双方都将死亡\"}" ]
+        	},
+        	"Enchantments":[
+        		{
+        			"id":"minecraft:sharpness",
+        			"lvl":1
+        		}
+        	]
+        }
+    }
+}

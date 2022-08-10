@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "cdc",
+        " a ",
+        "gRg"
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:redstone_block"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "c": {
+            "item": "minecraft:coal"
+        },
+        "d": {
+            "item": "minecraft:diamond"
+        },
+        "a": {
+            "item": "minecraft:apple"
+        }
+    },
+    "result": {
+        "item": "minecraft:apple",
+        "count": 1,
+        "data":{
+            "magic":1,
+            "display":{
+                "Name": "{\"text\":\"神奇苹果\",\"color\":\"yellow\",\"italic\":false}",
+                "Lore": [ "{\"text\":\" \"}","{\"text\":\"\\u00a76神器\"}","{\"text\":\"\\u00A77食用后随机获得速度,抗性提升\"}","{\"text\":\"\\u00A77生命回复,饱和,防火其中一种药水效果\"}" ]
+            },
+            "Enchantments":[
+                {
+                    "id":"minecraft:sharpness",
+                    "lvl":1
+                }
+            ]
+        }
+    }
+}

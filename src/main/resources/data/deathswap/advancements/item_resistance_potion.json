@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "deathswap:resistance_potion"
+            }
+        }
+    },
+    "rewards": {
+        "function": "deathswap:advanture/resistance_potion"
+    }
+}

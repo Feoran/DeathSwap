@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " c ",
+        " g ",
+        " I "
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_block"
+        },
+        "g": {
+            "item": "minecraft:glass_bottle"
+        },
+        "c": {
+            "item": "minecraft:cactus"
+        }
+    },
+    "result": {
+        "item": "minecraft:potion",
+        "count": 1,
+        "data":{
+            "resistance":1,
+            "display":{
+                "Name": "{\"text\":\"坚韧药水\",\"color\":\"yellow\",\"italic\":false}",
+                "Lore": [ "{\"text\":\" \"}","{\"text\":\"\\u00a75魔法物品\"}" ]
+            },
+            "Potion":"water",
+            "CustomPotionEffects":[
+                {
+                    "Id":11,
+                    "Amplifier":1,
+                    "Duration":900,
+                    "ShowParticles":0
+                }
+            ]
+        }
+    }
+}
