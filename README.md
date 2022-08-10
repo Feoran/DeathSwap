@@ -5,6 +5,9 @@
 ### 豌豆:  成就 物品 指令
 ### 沃姆斯:  指令 基础框架
 ### 老七:  场景
+![image](https://img.shields.io/badge/Build-success-success)![image](https://img.shields.io/badge/DeathSwap-DataPack-informational)
+![image](https://img.shields.io/badge/%E5%B0%8F%E6%B8%B8%E6%88%8F%E6%95%B0%E6%8D%AE%E5%8C%85-%E5%9B%BD%E5%88%9B-red)
+
 <div align="left">
 
 ## 如何联系/我要加入:
