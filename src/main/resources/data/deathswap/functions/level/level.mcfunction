@@ -35,9 +35,3 @@ execute as @a[scores={level=65}] run function deathswap:level/rank33
 execute as @a[scores={level=67}] run function deathswap:level/rank34
 execute as @a[scores={level=69}] run function deathswap:level/rank35
 execute as @a[scores={level=699}] run function deathswap:level/rank36
-execute as @a[scores={level=699}] run function deathswap:level/rank37
-execute as @a[scores={level=699}] run function deathswap:level/rank38
-execute as @a[scores={level=699}] run function deathswap:level/rank39
-execute as @a[scores={level=699}] run function deathswap:level/rank40
-execute as @a[scores={level=699}] run function deathswap:level/rank41
-execute as @a[scores={level=699}] run function deathswap:level/rank66

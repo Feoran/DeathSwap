@@ -1,7 +1,7 @@
 # 读秒
 function deathswap:time
 # 实时监测幸存人数
-execute if entity @e[tag=ingame] run function deathswap:countsur
+execute if entity @e[type=armor_stand,tag=game_core,tag=ingame] run function deathswap:countsur
 # 实时监测准备人数
 function deathswap:countply
 # 大厅默认效果
@@ -29,7 +29,7 @@ execute if entity @a[tag=ingame,scores={tips0=1..}] run execute if entity @e[tag
 
 
 # 游戏进行时的展示
-execute if entity @e[tag=game_core,tag=ingame,scores={outtips=0}] run title @a actionbar [{"text":"当前还剩","color":"green","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"score":{"objective":"restply_t","name":"@e[tag=game_core,tag=ingame,limit=1]"},"color":"aqua","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"名幸存者，距离上次交换已过去","color":"green","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"score":{"objective":"time","name":"@e[tag=game_core,tag=ingame,limit=1]"},"color":"red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"秒","color":"green","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+execute if entity @e[tag=game_core,tag=ingame,scores={outtips=0}] run title @a actionbar [{"text":"当前还剩","color":"green","bold":true,"italic":false},{"score":{"objective":"restply_t","name":"@e[tag=game_core,tag=ingame,limit=1]"},"color":"aqua","bold":true,"italic":false},{"text":"名幸存者，距离上次交换已过去","color":"green","bold":false,"italic":false},{"score":{"objective":"time","name":"@e[tag=game_core,tag=ingame,limit=1]"},"color":"red","bold":true,"italic":false},{"text":"秒","color":"green","bold":true,"italic":false}]
 # 特效侦测
 execute as @a at @s run function deathswap:rank/tick
 # 永夜模式
@@ -41,7 +41,7 @@ execute if entity @e[tag=game_core] run execute if entity @a[scores={tips0=1..}]
 
 # 播报功能
 execute if entity @e[tag=game_core,tag=ingame,scores={outtips=1}] run function deathswap:outtips
-execute if entity @e[tag=game_core,tag=ingame,scores={outtips=1}] run title @a actionbar [{"text":"当前还剩","color":"green","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"score":{"objective":"restply_t","name":"@e[tag=game_core,tag=ingame,limit=1]"},"color":"aqua","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"名幸存者，距离交换还剩余","color":"green","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"score":{"objective":"timetips0","name":"@e[tag=game_core,tag=ingame,limit=1]"},"color":"red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"秒","color":"green","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+execute if entity @e[tag=game_core,tag=ingame,scores={outtips=1}] run title @a actionbar [{"text":"当前还剩","color":"green","bold":false,"italic":false},{"score":{"objective":"restply_t","name":"@e[tag=game_core,tag=ingame,limit=1]"},"color":"aqua","bold":true,"italic":false},{"text":"名幸存者，距离交换还剩余","color":"green","bold":false,"italic":false},{"score":{"objective":"timetips0","name":"@e[tag=game_core,tag=ingame,limit=1]"},"color":"red","bold":true,"italic":false},{"text":"秒","color":"green","bold":false,"italic":false}]
 # 安装
 execute unless entity @e[tag=game_core] run scoreboard objectives add installtips dummy
 execute unless entity @e[tag=game_core] run execute unless entity @a[scores={installtips=1..}] run function deathswap:ini/installtips
