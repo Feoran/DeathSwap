@@ -1,13 +1,3 @@
-<div align="center">
-   <img width="160" src="docs/mirai.png" alt="logo"></br>
-
-   <img width="95" src="docs/mirai.svg" alt="title">
-
-----
-
-[![Gitter](https://badges.gitter.im/mamoe/mirai.svg)](https://gitter.im/mamoe/mirai?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![MiraiForum](https://img.shields.io/badge/post-on%20MiraiForum-yellow)](https://mirai.mamoe.net)
-
 ## 关于开源
 
 ### 本数据包完全开源更新，如遇贩卖本项目纯属诈骗
