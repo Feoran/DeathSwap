@@ -9,7 +9,7 @@
 ### 老七:  场景
 ![QQ图片20220810223046](https://user-images.githubusercontent.com/77895787/183929411-7d113e8f-9681-4e72-bfdf-92167c57d4c5.png)
 ### 豌豆:  成就 物品 指令
-![image](https://img.shields.io/badge/Build-success-success)
+![image](https://img.shields.io/badge/Build-Success-success)
 ![image](https://img.shields.io/badge/DeathSwap-DataPack-informational)
 ![image](https://img.shields.io/badge/%E5%B0%8F%E6%B8%B8%E6%88%8F%E6%95%B0%E6%8D%AE%E5%8C%85-%E5%9B%BD%E5%88%9B-red)
 
