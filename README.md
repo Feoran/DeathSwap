@@ -1,12 +1,18 @@
 <div align="center">
 
 ## **制作者团队**
+![image](https://user-images.githubusercontent.com/77895787/183927473-f52bdf04-668d-403e-b673-146280170dc1.png) 
 ### 橘子:  指令 场景交互 基础框架
-### 豌豆:  成就 物品 指令
+![image](https://user-images.githubusercontent.com/77895787/183928581-efd48ef2-33d1-446d-958d-1ae2d48d6252.png)
 ### 沃姆斯:  指令 基础框架
+![image](https://user-images.githubusercontent.com/77895787/183928819-ee068024-4685-417d-ae77-883b0e24f9c7.png)
 ### 老七:  场景
-![image](https://img.shields.io/badge/Build-success-success)![image](https://img.shields.io/badge/DeathSwap-DataPack-informational)
+![QQ图片20220810223046](https://user-images.githubusercontent.com/77895787/183929411-7d113e8f-9681-4e72-bfdf-92167c57d4c5.png)
+### 豌豆:  成就 物品 指令
+![image](https://img.shields.io/badge/Build-success-success)
+![image](https://img.shields.io/badge/DeathSwap-DataPack-informational)
 ![image](https://img.shields.io/badge/%E5%B0%8F%E6%B8%B8%E6%88%8F%E6%95%B0%E6%8D%AE%E5%8C%85-%E5%9B%BD%E5%88%9B-red)
+
 
 <div align="left">
 
