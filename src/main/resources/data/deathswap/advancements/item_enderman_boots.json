@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "deathswap:enderman_boots"
+            }
+        }
+    },
+    "rewards": {
+        "function": "deathswap:advanture/enderman_boots"
+    }
+}

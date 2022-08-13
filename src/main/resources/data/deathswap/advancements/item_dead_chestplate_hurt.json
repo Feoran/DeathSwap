@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player",
+              "equipment": {
+                "chest": {
+                  "nbt": "{dead:1b}"
+                }
+              }
+            }
+          }
+        ],
+        "damage": {
+          "source_entity": {
+            "type": "#deathswap:dead"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "deathswap:advanture/dead_chestplate/hurt"
+  }
+}

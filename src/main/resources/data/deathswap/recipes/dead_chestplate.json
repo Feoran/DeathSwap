@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " b ",
+        "rir",
+        "IbI"
+    ],
+    "key": {
+        "r": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "b": {
+            "item": "minecraft:bone"
+        },
+        "i": {
+            "item": "minecraft:iron_chestplate"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_chestplate",
+        "count": 1,
+        "data":{
+        	"dead":1,
+        	"display":{
+        		"Name": "{\"text\":\"亡灵战甲\",\"color\":\"yellow\",\"italic\":false}",
+        		"Lore": [ "{\"text\":\" \"}","{\"text\":\"\\u00a7a装备\"}","{\"text\":\"\\u00A77穿戴时若遭到亡灵生物攻击则获得抗性提升I和力量I效果\"}" ]
+        	},
+        	"Enchantments":[
+        		{
+        			"id":"minecraft:protection",
+        			"lvl":1
+        		},
+                {
+                    "id":"minecraft:projectile_protection",
+                    "lvl":1
+                }
+        	]
+        }
+    }
+}

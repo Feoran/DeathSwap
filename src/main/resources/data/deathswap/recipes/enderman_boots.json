@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " e ",
+        "fdf",
+        "fif"
+    ],
+    "key": {
+        "d": {
+            "item": "minecraft:diamond_boots"
+        },
+        "f": {
+            "item": "minecraft:feather"
+        },
+        "e": {
+            "item": "minecraft:ender_pearl"
+        },
+        "i": {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_boots",
+        "count": 1,
+        "data":{
+        	"ender":1,
+        	"display":{
+        		"Name": "{\"text\":\"末影人之靴\",\"color\":\"yellow\",\"italic\":false}",
+        		"Lore": [ "{\"text\":\" \"}","{\"text\":\"\\u00a7a装备\"}","{\"text\":\" \"}" ]
+        	},
+        	"Enchantments":[
+        		{
+        			"id":"minecraft:protection",
+        			"lvl":2
+        		},
+                {
+                    "id":"minecraft:feather_falling",
+                    "lvl":4
+                }
+        	]
+        }
+    }
+}
