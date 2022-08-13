@@ -1,0 +1,1 @@
+# execute if entity @e[tag=game_core,scores={crazy=1}] run effect give @a[tag=ingame] a 2555 1

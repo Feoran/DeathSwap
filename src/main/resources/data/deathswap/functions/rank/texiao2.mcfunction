@@ -1,0 +1,1 @@
+particle minecraft:totem_of_undying ~ ~ ~ 0.21 0.001 0.21 0.1 5 force

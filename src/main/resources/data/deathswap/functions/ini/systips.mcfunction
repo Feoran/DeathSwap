@@ -1,0 +1,8 @@
+scoreboard players reset @a ds_tips0
+tellraw @s [{"text":"—————————[","color":"dark_red","bold":true,"italic":false},{"text":"死亡交换","color":"red","bold":false,"italic":false},{"text":"]—————————","color":"dark_red","bold":true,"italic":false}]
+tellraw @s [""]
+tellraw @s [{"text":" 制作: ","color":"gold","bold":true,"italic":false},{"text":" [橘子,沃姆斯] ","color":"red","bold":true,"italic":false},{"text":"|","color":"dark_aqua","bold":true,"italic":false},{"text":" [豌豆,老七] ","color":"red","bold":true,"italic":false}]
+tellraw @s [""]
+tellraw @s [{"text":" Q群: ","color":"gold","bold":true,"italic":false},{"text":"橘的游戏交流","color":"green","bold":false,"italic":false,"clickEvent":{"action":"open_url","value":"https://jq.qq.com/?_wv=1027&k=S8WpAmYs"},"hoverEvent":{"action":"show_text","value":"群号: 797072120 点击加入群聊"}},{"text":" | ","color":"dark_aqua","bold":true,"italic":false},{"text":"kook频道: ","color":"gold","bold":true,"italic":false},{"text":"[cCYknS]","color":"green","bold":false,"italic":false,"clickEvent":{"action":"open_url","value":"https://kook.top/cCYknS"},"hoverEvent":{"action":"show_text","value":"点击加入频道"}}]
+tellraw @s [""]
+tellraw @s [{"text":"确保强制使用Unicode字体为","color":"dark_aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":" 关","color":"red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":" [如何更改]","color":"gray","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"hoverEvent":{"action":"show_text","value":"[选项]->[语言]->[强制使用Unicode字体: 关] 客户端本地配置,无设置则会造成视觉上的细节错误"}}]
