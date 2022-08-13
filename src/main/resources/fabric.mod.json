@@ -1,12 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "orangeeverything",
+  "id": "deathswap",
   "version": "1.0",
-  "name": "OrangeEverything",
-  "description": "Orange - Everything is possible",
+  "name": "OrangeDeathSwap",
+  "description": "DeathSwap - Everything is possible",
   "authors": [
     "SSOrangeCATY",
-    "Warth_Diamond"
+    "Warth_Diamond",
+    "Dog_WanDou",
+    "Kasper_0"
   ],
   "contact": {
     "QGroup": "https://jq.qq.com/?_wv=1027&k=kbkCNudf",
