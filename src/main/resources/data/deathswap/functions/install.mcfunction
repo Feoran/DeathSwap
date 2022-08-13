@@ -1,2 +1,0 @@
-tellraw @a [{"text":"确保函数权限等级为","color":"dark_aqua","bold":false,"italic":false},{"text":" 4","color":"red","bold":true,"italic":false},{"text":" [如何更改]","color":"gray","bold":false,"italic":false,"hoverEvent":{"action":"show_text","value":"[server.properties]->[function-permission-level=4] 非服务器环境可无视"}}]
-tellraw @a [{"text":"是否继续安装","color":"dark_aqua","bold":false,"italic":false},{"text":" [是]","color":"green","bold":false,"italic":false,"clickEvent":{"action":"run_command","value":"/function deathswap:ainstall"},"hoverEvent":{"action":"show_text","value":"安装"}}]
