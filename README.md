@@ -55,6 +55,8 @@
 - "server.properties" -> function-permission-level=4
 - 在服务器环境下确认服务器的"server.properties"设置是否与此一致或者下载已经配置好的服务器包
 - 如果你的游戏环境是单人模式局域网则可以无视以上步骤直接进行游玩
+- 确保强制使用Unicode字体为关 否则会产生视觉上的细节错误
+- [选项]->[语言]->[强制使用Unicode字体: 关] 客户端本地配置
 - 如果游玩中遇到未知错误或者其他疑问可以给我们提issue或者前往我们的Q群:[797072120](https://jq.qq.com/?_wv=1027&k=NcYvCvkW)来获取帮助
 
 ## 模式说明
